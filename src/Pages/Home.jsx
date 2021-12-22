@@ -1,9 +1,14 @@
 import React from 'react';
 import Header from '../Components/Header';
-import imgLog from '../images/cSharp.png'
-import ImgReact from '../images/react.png'
+import Doctors from '../images/doctors and medical teams wearing.png';
+import ImgReact from '../images/react.png';
+import Testimonial1 from '../images/testimonial-1.png';
+import Testimonial2 from '../images/testimonial-2.png';
+import Testimonial3 from '../images/testimonial-3.png';
 import { Link } from 'react-router-dom';
-import ImgJS from '../images/Js.png';
+import LastNews1 from '../images/lastNews-2.jfif';
+import LastNews2 from '../images/lastNews-3.jpg';
+import LastNews3 from '../images/lastNews-4.jfif';
 import SocialCommunity from '../images/internet social community.png';
 import Product1 from '../images/product-1.png';
 import Product2 from '../images/chinese-herbology-traditional.png';
@@ -84,8 +89,8 @@ const Home = () => {
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
-                                    <img src={ImgJS} className='rounded rounded-circle mt-2 img-fluid' />
-                                    <h3 className="mt-2 mb-0">Christelle</h3>
+                                    <img src={Testimonial2} className='rounded rounded-circle mt-2 img-fluid' />
+                                    <h3 className="mt-2 mb-0">Doe John</h3>
                                     <small className="user_name">Lead Manager</small>
                                 </div>
                                 <div className="theback py-3 px-3">
@@ -102,8 +107,8 @@ const Home = () => {
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
-                                    <img src={ImgJS} className='rounded-circle mt-2 img-fluid' />
-                                    <h3 className="mt-2 mb-0">Maxwell Lewis</h3>
+                                    <img src={Testimonial1} className='rounded-circle mt-2 img-fluid' />
+                                    <h3 className="mt-2 mb-0">Christele</h3>
                                     <small className="user_name">Frontend Software</small>
                                 </div>
                                 <div className="theback py-3 px-3">
@@ -120,7 +125,7 @@ const Home = () => {
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
-                                    <img src={ImgJS} className='rounded-circle mt-2 img-fluid' />
+                                    <img src={Testimonial3} className='rounded-circle mt-2 img-fluid' />
                                     <h3 className="mt-2 mb-0">Yared Ayankam</h3>
                                     <small className="user_name">Backend software</small>
                                 </div>
@@ -138,7 +143,7 @@ const Home = () => {
 
             <section className="container-fluid bg-dark text-white p-5">
                 <div className="row justify-content-center">
-                    <div className="col-md-4 "><h2 className="text-center"><img src={imgLog} className='img-fluid' /></h2></div>
+                    <div className="col-md-4 "><h2 className="text-center"><img src={Doctors} className='img-fluid shadow' /></h2></div>
                     <div className="col-md-8 text-start p-5">
                         <h2>Aidez nous a aider les autres</h2>
                         <div className="underline"></div>
@@ -160,7 +165,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-4 p-2">
                         <div className="card p-2 shadow onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={LastNews1}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="card-text"><small className="text-muted">Last update 3 min ago</small></p>
                                 <h5 className="card-title">Article N°1</h5>
@@ -171,7 +176,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 p-2">
                         <div className="card p-2 shadow onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={LastNews2}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="card-text"><small className="text-muted">Last update 3 min ago</small></p>
                                 <h5 className="card-title">Article N°2</h5>
@@ -182,7 +187,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 p-2">
                         <div className="card p-2 shadow onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={LastNews3}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="card-text"><small className="text-muted">Last update 3 min ago</small></p>
                                 <h5 className="card-title">Article N°3</h5>
