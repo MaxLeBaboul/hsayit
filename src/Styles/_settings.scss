@@ -1,0 +1,34 @@
+$color-primary: #1CC198;
+$color-white: #fff;
+$color-black: #000;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+    .underline {
+    width: 20%;
+    height: 4px;
+    background-color: $color-primary;
+    margin-bottom: 10px;
+}
+
+    .underling {
+        width: 10%;
+        height: 4px;
+        background-color: $color-primary;
+        margin-bottom: 10px;
+    }
+
+
+
+
+  
+
+
+}
+
+

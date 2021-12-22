@@ -1,0 +1,16 @@
+.Header{
+    
+   
+    height: auto;
+    z-index: -1;
+
+    .see{
+        z-index: 1000;
+    }
+
+    .topgroup{
+      width: 60%;
+      display: flex;
+      margin: auto;
+    }
+}
