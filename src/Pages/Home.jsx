@@ -4,6 +4,10 @@ import imgLog from '../images/cSharp.png'
 import ImgReact from '../images/react.png'
 import { Link } from 'react-router-dom';
 import ImgJS from '../images/Js.png';
+import SocialCommunity from '../images/internet social community.png';
+import Product1 from '../images/product-1.png';
+import Product2 from '../images/chinese-herbology-traditional.png';
+import Product3 from '../images/product-3.png';
 
 
 
@@ -24,33 +28,33 @@ const Home = () => {
                         magna aliqua.</p>
                         <button className="btn btn-success shadow px-5 py-2 rounded-pill">Savoir plus</button>
                     </div>
-                    <div className="col-md-4 "><h2 className="text-center"><img src={imgLog} className='img-fluid shadow' /></h2></div>
+                    <div className="col-md-4 "><h2 className="text-center"><img src={SocialCommunity} className='img-fluid shadow' /></h2></div>
                 </div>
             </section>
             
             <section className="container-fluid  bg-dark py-5">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 p-2">
                         <div className="card p-2 onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={Product1}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="cart-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia accusantium at aliquam vel, sint placeat eius. Doloribus, vel! Porro, facilis!</p>
                                 <Link to='/' className='btn btn-success shadow d-block m-auto w-50 rounded-pill'>Acheter</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 p-2">
                         <div className="card p-2 onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={Product2}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="cart-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia accusantium at aliquam vel, sint placeat eius. Doloribus, vel! Porro, facilis!</p>
                                 <Link to='/' className='btn btn-success shadow d-block m-auto w-50 rounded-pill'>Acheter</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 p-2">
                         <div className="card p-2 onCard">
-                            <img src={ImgReact}  className="card-img-top img-fluid"  alt="product image" />
+                            <img src={Product3}  className="card-img-top img-fluid"  alt="product image" />
                             <div className="card-body">
                                 <p className="cart-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia accusantium at aliquam vel, sint placeat eius. Doloribus, vel! Porro, facilis!</p>
                                 <Link to='/' className='btn btn-success shadow d-block m-auto w-50 rounded-pill'>Acheter</Link>

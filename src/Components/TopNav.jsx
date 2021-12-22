@@ -11,7 +11,7 @@ function TopNav() {
 
                                
                                 
-                               <div className="input-group rounded-pill m-2 me-5  topgroup">
+                               <div className="input-group rounded-pill m-2 me-5  topgroup d-none d-lg-flex">
                                     
                                     <input className="form-control border-end-0 border me-n3 rounded-end rounded-pill" placeholder="Search" type="text" aria-label='Search'  aria-describedby='basic-addon1'/>
                                     <span className="input-group-append" id='basic-addon1'>

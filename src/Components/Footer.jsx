@@ -11,10 +11,10 @@ const Footer = () => {
     return (
         <div className="shadow Footer">
             <NewsLetter />
-            <footer className="text-white mt-5 p-4">
-                <div className="container-fluid">
+            <footer className="text-white mt-5  p-4">
+                <div className="container-fluid ">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 text-center">
                             <h3>Support</h3>
                             <div className="">
                                 
@@ -23,7 +23,7 @@ const Footer = () => {
                                 <Link to="/" className="d-block text-decoration-none text-white">Cookies</Link>
                                 </div>
                         </div>
-                         <div className="col-md-4">
+                         <div className="col-md-4 text-center">
                              <h3>Nos sujets</h3>
                              <nav class="nav flex-column">
                             <Link class="nav-link active text-white" aria-current="page" to="#">Communauté</Link>
