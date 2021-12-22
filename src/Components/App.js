@@ -10,7 +10,7 @@ import SuperNav from "./SuperNav";
 
 function App() {
   return (
-    <div className="App bg-success">
+    <div className="App">
         
         <Router> 
             <SuperNav />      

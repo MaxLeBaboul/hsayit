@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className="shadow Footer">
             <NewsLetter />
-            <footer className="bg-success text-white mt-5 p-4">
+            <footer className="text-white mt-5 p-4">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-4">

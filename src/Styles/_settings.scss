@@ -2,6 +2,12 @@ $color-primary: #1CC198;
 $color-white: #fff;
 $color-black: #000;
 
+$theme-colors: (
+ 
+  "secondary":  $color-primary,
+  
+);
+
 
 *{
     margin: 0;
@@ -30,5 +36,7 @@ $color-black: #000;
 
 
 }
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
