@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </section>
             
-            <section className="container-fluid no-gutters bg-dark py-5">
+            <section className="container-fluid  bg-dark py-5">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="card p-2 onCard">
@@ -75,8 +75,8 @@ const Home = () => {
                         <p className='m-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae iste laudantium necessitatibus magnam eligendi nam temporibus sunt eum cumque quidem. Impedit, ut nulla. Est, quam laborum pariatur perspiciatis culpa neque ad quae molestiae soluta nam esse, corrupti nobis necessitatibus!</p>
                     </div>
                 </div>
-                <div className="row d-flex">
-                    <div className="col-md-4 ">
+                <div className="row">
+                    <div className="col-md-4 onCard p-2 ">
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
@@ -94,7 +94,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                     <div className="col-md-4">
+                     <div className="col-md-4 onCard p-2">
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
@@ -112,7 +112,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                     <div className="col-md-4">
+                     <div className="col-md-4 onCard p-2">
                         <div className="maincard shadow p-2">
                             <div className="thecard">
                                 <div className="thefront text-center py-4">
