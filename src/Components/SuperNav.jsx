@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 
 const SuperNav = () => {
     return (
-        <div className='SuperNav'>
+        <div className='SuperNav shadow'>
             <TopNav />
             <hr className="line-head" />
            <Navigation /> 

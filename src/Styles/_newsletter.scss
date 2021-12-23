@@ -2,13 +2,13 @@
     position: relative;
 
     .onTop{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
        
         background: $color-primary;
         position: absolute;
         border-radius: 50%;
-        top: -30%;
+        top: -20%;
         right: 100px;
     }
 }
